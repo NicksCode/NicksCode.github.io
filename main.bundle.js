@@ -219,7 +219,7 @@ var styles = [""];
 var styles_LandingComponent = [__WEBPACK_IMPORTED_MODULE_0__landing_component_css_shim_ngstyle__["a" /* styles */]];
 var RenderType_LandingComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_10" /* ɵcrt */]({ encapsulation: 0, styles: styles_LandingComponent, data: {} });
 
-function View_LandingComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, 0, null, null, 9, "div", [["class", "starter-template"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](2, 0, null, null, 1, "h1", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["Bootstrap starter template"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](5, 0, null, null, 3, "p", [["class", "lead"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["Use this document as a way to quickly start any new project."])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](7, 0, null, null, 0, "br", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, [" All you get is this text and a mostly barebones HTML document."])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n"]))], null, null); }
+function View_LandingComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, 0, null, null, 7, "div", [["class", "starter-template"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](2, 0, null, null, 1, "h1", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["Nanny Match"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](5, 0, null, null, 1, "p", [["class", "lead"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["Save hours interviewing for the perfect nanny!"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n"]))], null, null); }
 function View_LandingComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, 0, null, null, 1, "app-landing", [], null, null, null, View_LandingComponent_0, RenderType_LandingComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_2__landing_component__["a" /* LandingComponent */], [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 var LandingComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ɵccf */]("app-landing", __WEBPACK_IMPORTED_MODULE_2__landing_component__["a" /* LandingComponent */], View_LandingComponent_Host_0, {}, {}, []);
 
@@ -255,7 +255,7 @@ var LandingComponent = (function () {
  * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
  * tslint:disable
  */ 
-var styles = [""];
+var styles = [".coolimage[_ngcontent-%COMP%]\n{\nposition: relative;\nfloat: left;\nwidth:  100px;\nheight: 100px;\nbackground-position: 50% 50%;\nbackground-repeat:   no-repeat;\nbackground-size:     cover;\n}"];
 
 
 
@@ -271,7 +271,9 @@ var styles = [""];
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NanniesComponentNgFactory; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__nannies_component_css_shim_ngstyle__ = __webpack_require__("../../../../../src/app/pages/nannies/nannies.component.css.shim.ngstyle.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nannies_component__ = __webpack_require__("../../../../../src/app/pages/nannies/nannies.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_nanny_list_item_component_ngfactory__ = __webpack_require__("../../../../../src/app/pages/nannies/nanny-list-item/nanny-list-item.component.ngfactory.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nanny_list_item_nanny_list_item_component__ = __webpack_require__("../../../../../src/app/pages/nannies/nanny-list-item/nanny-list-item.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__nannies_component__ = __webpack_require__("../../../../../src/app/pages/nannies/nannies.component.ts");
 /**
  * @fileoverview This file was generated by the Angular template compiler. Do not edit.
  *
@@ -281,12 +283,14 @@ var styles = [""];
 
 
 
+
+
 var styles_NanniesComponent = [__WEBPACK_IMPORTED_MODULE_0__nannies_component_css_shim_ngstyle__["a" /* styles */]];
 var RenderType_NanniesComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_10" /* ɵcrt */]({ encapsulation: 0, styles: styles_NanniesComponent, data: {} });
 
-function View_NanniesComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n  nannies works!\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n"]))], null, null); }
-function View_NanniesComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, 0, null, null, 1, "app-nannies", [], null, null, null, View_NanniesComponent_0, RenderType_NanniesComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_2__nannies_component__["a" /* NanniesComponent */], [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
-var NanniesComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ɵccf */]("app-nannies", __WEBPACK_IMPORTED_MODULE_2__nannies_component__["a" /* NanniesComponent */], View_NanniesComponent_Host_0, {}, {}, []);
+function View_NanniesComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n\n\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](1, 0, null, null, 19, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](3, 0, null, null, 4, "div", [["class", "col-lg-4"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n     "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](5, 0, null, null, 1, "app-nanny-list-item", [], null, null, null, __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_nanny_list_item_component_ngfactory__["b" /* View_NannyListItemComponent_0 */], __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_nanny_list_item_component_ngfactory__["a" /* RenderType_NannyListItemComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵdid */](6, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_3__nanny_list_item_nanny_list_item_component__["a" /* NannyListItemComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](9, 0, null, null, 4, "div", [["class", "col-lg-4"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](11, 0, null, null, 1, "app-nanny-list-item", [], null, null, null, __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_nanny_list_item_component_ngfactory__["b" /* View_NannyListItemComponent_0 */], __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_nanny_list_item_component_ngfactory__["a" /* RenderType_NannyListItemComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵdid */](12, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_3__nanny_list_item_nanny_list_item_component__["a" /* NannyListItemComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](15, 0, null, null, 4, "div", [["class", "col-lg-4"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n        "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](17, 0, null, null, 1, "app-nanny-list-item", [], null, null, null, __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_nanny_list_item_component_ngfactory__["b" /* View_NannyListItemComponent_0 */], __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_nanny_list_item_component_ngfactory__["a" /* RenderType_NannyListItemComponent */])), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵdid */](18, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_3__nanny_list_item_nanny_list_item_component__["a" /* NannyListItemComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n          "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n\n\n\n\n\n"]))], function (_ck, _v) { _ck(_v, 6, 0); _ck(_v, 12, 0); _ck(_v, 18, 0); }, null); }
+function View_NanniesComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, 0, null, null, 1, "app-nannies", [], null, null, null, View_NanniesComponent_0, RenderType_NanniesComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_4__nannies_component__["a" /* NanniesComponent */], [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+var NanniesComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ɵccf */]("app-nannies", __WEBPACK_IMPORTED_MODULE_4__nannies_component__["a" /* NanniesComponent */], View_NanniesComponent_Host_0, {}, {}, []);
 
 
 
@@ -303,6 +307,71 @@ var NanniesComponent = (function () {
     NanniesComponent.prototype.ngOnInit = function () {
     };
     return NanniesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/pages/nannies/nanny-list-item/nanny-list-item.component.css.shim.ngstyle.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return styles; });
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+var styles = [""];
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/pages/nannies/nanny-list-item/nanny-list-item.component.ngfactory.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RenderType_NannyListItemComponent; });
+/* harmony export (immutable) */ __webpack_exports__["b"] = View_NannyListItemComponent_0;
+/* unused harmony export View_NannyListItemComponent_Host_0 */
+/* unused harmony export NannyListItemComponentNgFactory */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__nanny_list_item_component_css_shim_ngstyle__ = __webpack_require__("../../../../../src/app/pages/nannies/nanny-list-item/nanny-list-item.component.css.shim.ngstyle.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_component__ = __webpack_require__("../../../../../src/app/pages/nannies/nanny-list-item/nanny-list-item.component.ts");
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+
+
+
+var styles_NannyListItemComponent = [__WEBPACK_IMPORTED_MODULE_0__nanny_list_item_component_css_shim_ngstyle__["a" /* styles */]];
+var RenderType_NannyListItemComponent = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_10" /* ɵcrt */]({ encapsulation: 0, styles: styles_NannyListItemComponent, data: {} });
+
+function View_NannyListItemComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, 0, null, null, 28, "div", [["class", "card"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](2, 0, null, null, 0, "img", [["alt", "Card image cap"], ["class", "card-img-top"], ["src", "https://cdn.24.co.za/files/Cms/General/d/1559/da249740404444c499ca114721b13daa.jpg"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](4, 0, null, null, 17, "div", [["class", "card-body"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](6, 0, null, null, 1, "h4", [["class", "card-title"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["Special title treatment"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](9, 0, null, null, 1, "p", [["class", "card-text"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["With supporting text below as a natural lead-in to additional content."])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](12, 0, null, null, 2, "p", [["class", "card-text"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](13, 0, null, null, 1, "small", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["Last updated 3 mins ago"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](16, 0, null, null, 1, "a", [["class", "btn btn-primary"], ["href", "#"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["Schedule an interview"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](19, 0, null, null, 1, "a", [["class", "btn btn-primary"], ["href", "#"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["View"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n\n  "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](23, 0, null, null, 4, "div", [["class", "card-footer"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n      "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](25, 0, null, null, 1, "small", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["Last updated 3 mins ago"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n\n"])), (_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_26" /* ɵted */](-1, null, ["\n"]))], null, null); }
+function View_NannyListItemComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_1__angular_core__["_27" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_12" /* ɵeld */](0, 0, null, null, 1, "app-nanny-list-item", [], null, null, null, View_NannyListItemComponent_0, RenderType_NannyListItemComponent)), __WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_component__["a" /* NannyListItemComponent */], [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+var NannyListItemComponentNgFactory = __WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ɵccf */]("app-nanny-list-item", __WEBPACK_IMPORTED_MODULE_2__nanny_list_item_component__["a" /* NannyListItemComponent */], View_NannyListItemComponent_Host_0, {}, {}, []);
+
+
+
+/***/ }),
+
+/***/ "../../../../../src/app/pages/nannies/nanny-list-item/nanny-list-item.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NannyListItemComponent; });
+var NannyListItemComponent = (function () {
+    function NannyListItemComponent() {
+    }
+    NannyListItemComponent.prototype.ngOnInit = function () {
+    };
+    return NannyListItemComponent;
 }());
 
 
